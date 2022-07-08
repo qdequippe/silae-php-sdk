@@ -1,0 +1,30 @@
+{
+    "name": "qdequippe/silae-php-sdk",
+    "description": "PHP SDK for Silae web services",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Qdequippe\\SilaePhpSdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qdequippe\\SilaePhpSdk\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quentin Dequippe",
+            "email": "quentin@dequippe.tech"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.1",
+        "nyholm/psr7": "^1.5",
+        "phpro/soap-client": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
